@@ -1,0 +1,13 @@
+{
+  "server": false,
+  "datacenter": "dc1",
+  "node_name": "consul-agent1",
+  "data_dir": "/var/consul/data",
+  "bind_addr": "192.168.1.11",
+  "client_addr": "127.0.0.1",
+  "retry_join": ["172.16.94.11", "172.16.94.12", "172.16.94.13"],
+  "log_level": "DEBUG",
+  "enable_syslog": true,
+  "acl_enforce_version_8": false
+}
+
